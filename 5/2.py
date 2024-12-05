@@ -32,7 +32,7 @@ while True:
         continue
 
     while not is_good(nums):
-        is_good(nums)
+        pass
 
     res += nums[len(nums) // 2]
 
