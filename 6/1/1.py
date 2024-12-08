@@ -1,8 +1,4 @@
-original_grid = [list(input().strip()) for _ in range(130)]
-
-grid = []
-for row in original_grid:
-    grid.append(row.copy())
+grid = [list(input().strip()) for _ in range(130)]
 
 r = 59
 c = 62
